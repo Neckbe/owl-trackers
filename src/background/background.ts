@@ -42,7 +42,7 @@ OBR.onReady(async () => {
       },
     ],
     embed: {
-      url: "/src/trackerMenu/trackerMenu.html",
+      url: "https://neckbe.github.io/owl-trackers/src/trackerMenu/trackerMenu.html",
       height: 178,
     },
   });
@@ -66,7 +66,7 @@ OBR.onReady(async () => {
       },
     ],
     embed: {
-      url: "/src/trackerMenu/trackerMenu.html",
+      url: "https://neckbe.github.io/owl-trackers/src/trackerMenu/trackerMenu.html",
       height: 178,
     },
   });
