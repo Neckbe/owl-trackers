@@ -4,7 +4,7 @@ import { getPluginId } from "../getPluginId";
 export function openSceneTrackersPopover() {
   OBR.popover.open({
     id: getPluginId("scene-editor"),
-    url: "/src/sceneEditor/sceneEditor.html",
+    url: "https://neckbe.github.io/owl-trackers/src/sceneEditor/sceneEditor.html",
     height: 550,
     width: 430,
     anchorOrigin: {
