@@ -159,7 +159,7 @@ export default function TrackerMenu({
           onClick={() => {
             OBR.popover.open({
               id: getPluginId("editor"),
-              url: "/src/editor/editor.html",
+              url: "https://neckbe.github.io/owl-trackers/src/editor/editor.html",
               height: 550,
               width: 430,
               anchorOrigin: { horizontal: "CENTER", vertical: "CENTER" },
