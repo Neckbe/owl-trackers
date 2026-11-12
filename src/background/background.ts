@@ -11,7 +11,7 @@ const menuIcon = new URL(
 const contextMenuLabel = "Owl Trackers";
 
 OBR.onReady(async () => {
-  fetch("manifest.json")
+  fetch("https://neckbe.github.io/owl-trackers/manifest.json")
     .then((response) => response.json())
     .then((json) =>
       console.log(json["name"] + " - version: " + json["version"]),
